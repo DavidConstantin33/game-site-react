@@ -1,0 +1,26 @@
+.game-card {
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.game-card:hover {
+    transform: scale(1.03);
+}
+
+.game-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.game-card h3 {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
