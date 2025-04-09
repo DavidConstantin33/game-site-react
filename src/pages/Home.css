@@ -2,6 +2,11 @@
     padding: 2rem;
 }
 
+.home h1 {
+   font-size: 3em;
+    text-align: center;
+}
+
 .game-grid {
     display: flex;
     flex-wrap: wrap;

@@ -17,10 +17,10 @@ export default function Search() {
 
     return (
         <div className="search-page">
-            <h1>Search game</h1>
+            <h1>Search game 🎮</h1>
             <input
                 type="text"
-                placeholder="Caută după titlu sau taguri..."
+                placeholder="Search by title or by tags..."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 className="search-input"
@@ -32,7 +32,7 @@ export default function Search() {
                         <GameCard key={game.id} game={game} />
                     ))
                 ) : (
-                    <p className="no-results">Niciun joc găsit...</p>
+                    <p className="no-results">No game found 😔</p>
                 )}
             </div>
         </div>

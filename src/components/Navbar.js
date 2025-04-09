@@ -8,13 +8,13 @@ export default function Navbar() {
                 <Link to="/">KidsGames</Link>
             </div>
             <nav className="nav-links">
-                <Link to="/search">Search</Link>
+                <Link to="/search">Search 🔍</Link>
                 <Link to="/categories/popular">Popular</Link>
-                <Link to="/categories/adventure">Adventure</Link>
-                <Link to="/categories/action">Action</Link>
-                <Link to="/categories/puzzle">Puzzle</Link>
-                <Link to="/categories/educational">Educative</Link>
-                <Link to="/categories/cars">Cars</Link>
+                <Link to="/categories/adventure">Adventure 🗺️</Link>
+                <Link to="/categories/action">Action 💥</Link>
+                <Link to="/categories/puzzle">Puzzle 🧩</Link>
+                <Link to="/categories/arcade">Arcade 👾</Link>
+                <Link to="/categories/racing">Racing 🏁</Link>
             </nav>
         </header>
     );

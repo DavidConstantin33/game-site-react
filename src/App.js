@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import GamePage from "./pages/GamePage";
+import CategoryPage from "./pages/CategoryPage";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <Route path="/search" element={<Search />} />
                 <Route path="/" element={<Home />} />
                 <Route path="/game/:id" element={<GamePage />} />
+                <Route path="/categories/:category" element={<CategoryPage />} />
             </Routes>
             <Footer />
         </Router>
