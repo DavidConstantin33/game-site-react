@@ -5,6 +5,9 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import GamePage from "./pages/GamePage";
 import CategoryPage from "./pages/CategoryPage";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Terms from "./pages/Terms";
 
 function App() {
     return (
@@ -15,6 +18,9 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/game/:id" element={<GamePage />} />
                 <Route path="/categories/:category" element={<CategoryPage />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/terms" element={<Terms />} />
             </Routes>
             <Footer />
         </Router>

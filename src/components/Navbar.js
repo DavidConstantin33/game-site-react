@@ -5,11 +5,11 @@ export default function Navbar() {
     return (
         <header className="navbar">
             <div className="logo" id="title">
-                <Link to="/">KidsGames</Link>
+                <Link to="/">Joyzy</Link>
             </div>
             <nav className="nav-links">
                 <Link to="/search">Search 🔍</Link>
-                <Link to="/categories/popular">Popular</Link>
+                <Link to="/categories/popular">Popular 🔥</Link>
                 <Link to="/categories/adventure">Adventure 🗺️</Link>
                 <Link to="/categories/action">Action 💥</Link>
                 <Link to="/categories/puzzle">Puzzle 🧩</Link>
