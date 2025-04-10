@@ -3,7 +3,7 @@ import './Footer.css';
 export default function Footer() {
     return (
         <footer className="footer">
-            <p>© 2025 KidsGames. All rights reserved.</p>
+            <p>© 2025 Joyzy Games. <br/>All rights reserved.</p>
             <nav className="footer-links">
                 <Link to="/about">About Us</Link>
                 <Link to="/contact">Contact</Link>

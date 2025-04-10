@@ -268,5 +268,15 @@ export const games = [
         category: "racing",
         tags: ["Bricks", "run", "Stickman"],
         thumb: "https://img.gamemonetize.com/raigvuc893ks6f1agmiursk53lk68chx/512x384.jpg",
+    },
+    {
+        id: "beast-uncaged",
+        title: "Beast Uncaged: Screw Puzzle",
+        description: "Beast Uncaged: Screw Puzzle &ndash; Can You Set the Beast Free? Trapped behind a cage of screws and bolts, the mighty beast awaits its freedom! Your mission is to unscrew the bolts in the correct order, solve mechanical puzzles, and unleash the beast. Each level brings a new challenge, testing your logic, strategy, and problem-solving skills. Are you smart enough to figure out the right moves and complete the ultimate screw puzzle adventure?",
+        controls: "Mouse click or tap to play",
+        url: "https://html5.gamemonetize.com/zfpupt5bwhhm4v1pugu54og18fsne90z/",
+        category: "Puzzle",
+        tags: ["1 Player", 'Puzzle', "puzzleblock"],
+        thumb: "https://img.gamemonetize.com/zfpupt5bwhhm4v1pugu54og18fsne90z/512x384.jpg",
     }
 ];

@@ -69,3 +69,31 @@
 .game-recommendations a {
     text-decoration: none;
 }
+
+@media (max-width: 800px) {
+    .game-page {
+        padding: 1rem;
+    }
+
+    .game-iframe {
+        height: 75vh;
+        width: 93vw;
+        margin-bottom: 1rem;
+    }
+
+    .game-section {
+        font-size: 0.95rem;
+    }
+
+    .game-description {
+        max-height: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.5;
+    }
+
+    .game-tags {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+}
